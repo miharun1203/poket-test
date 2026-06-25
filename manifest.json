@@ -1,15 +1,15 @@
 {
-  "name": "세상 도감",
-  "short_name": "도감",
-  "description": "세상의 모든 것을 담는 나만의 도감",
-  "start_url": "/",
+  "name": "일상도감",
+  "short_name": "일상도감",
+  "description": "주변에서 발견한 사물, 동물, 곤충, 식물을 채워가는 작은 도감",
+  "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#0f1117",
-  "theme_color": "#4ade80",
+  "background_color": "#101317",
+  "theme_color": "#49d17c",
   "orientation": "portrait",
   "icons": [
     {
-      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='32' fill='%230f1117'/><text x='96' y='130' font-size='100' text-anchor='middle'>📖</text></svg>",
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='36' fill='%23101317'/%3E%3Cpath d='M55 35h82a18 18 0 0 1 18 18v104H70a25 25 0 0 1-25-25V45a10 10 0 0 1 10-10Z' fill='%2349d17c'/%3E%3Cpath d='M70 35v122' stroke='%23101317' stroke-width='12'/%3E%3Cpath d='M88 70h40M88 96h34' stroke='%23101317' stroke-width='10' stroke-linecap='round'/%3E%3C/svg%3E",
       "sizes": "192x192",
       "type": "image/svg+xml"
     }
