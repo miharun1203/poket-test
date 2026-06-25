@@ -1,7 +1,7 @@
 {
   "name": "일상도감",
   "short_name": "일상도감",
-  "description": "주변에서 발견한 사물, 동물, 곤충, 식물을 채워가는 작은 도감",
+  "description": "주변에서 발견한 사물, 동물, 곤충, 식물을 촬영해 채워가는 도감",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#101317",

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'daily-dex-v2';
+const CACHE_NAME = 'daily-dex-v3';
 const ASSETS = ['./', './index.html', './manifest.json'];
 
 self.addEventListener('install', event => {
