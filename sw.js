@@ -1,4 +1,4 @@
-const CACHE_NAME = 'daily-dex-v3';
+const CACHE_NAME = 'shinbi-animal-v1';
 const ASSETS = ['./', './index.html', './manifest.json'];
 
 self.addEventListener('install', event => {
