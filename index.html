@@ -420,8 +420,8 @@ window.saveApiKey = function(){
   toast('API 키 저장됐어요 ✅');
 }
 function checkApiKeyBanner(){
-  if(!getApiKey()) $('api-key-banner').style.display='block';
-  else $('api-key-banner').style.display='none';
+  const hasKey = !!getApiKey();
+  $('api-key-banner').style.display = hasKey ? 'none' : 'block';
 }
 
 // ── 카메라 ───────────────────────────────────────────────────
@@ -639,6 +639,10 @@ window.toast = function(msg){
   const t=$('toast'); t.textContent=msg; t.classList.add('show');
   clearTimeout(window.__t); window.__t=setTimeout(()=>t.classList.remove('show'),2200);
 }
+
+// ── API Key 배너 체크 ─────────────────────────────
+
+// checkApiKeyBanner는 위 API Key 관리 섹션에 정의됨
 
 window.go = function(id){
   document.querySelectorAll('.nav').forEach(b=>b.classList.toggle('active',b.dataset.page===id));
